@@ -80,7 +80,7 @@ What can be implemented in the future using this design:
   * Coherent 3.x 8086 16-bit programs
   * Xenix 16-bit programs
   * CP/M-86 16-bit programs
-* Creating a libc in a separate .lib files.
+* Creating a libc in a separate .lib file.
 * Size-optimizing the existing libc functions.
 * Adding (many) more functions to the libc.
 * Size-optimizing the libc functions, adding alternative, smaller .lib files
@@ -92,7 +92,7 @@ What can be implemented in the future using this design:
 * Using any host where the OpenWatcom C compiler is available (e.g. 32-bit
   DOS and Win32 in addition to Linux). Using Docker or virtualization on
   macOS host.
-* Running the OpenWatcom C compiler (owcc) and the prog15cv tool in
+* Running the OpenWatcom C compiler (owcc) and the prog16cv tool in
   qemu-i386 on non-x86 Linux host.
 * Adding support for other C compilers targeting the 8086, most notably
   gcc-ia16. Probably Borland C, Microsoft C and Zortech C++ can also be
