@@ -1,2 +1,5 @@
 *~
 *.elks
+*.o
+/elks*.img
+/prog16cv
