@@ -40,7 +40,7 @@ How to target ELKS using owtarget16:
 * In a terminal window:
   * Run: git clone https://github.com/pts/owtarget16
   * cd into the extracted directory containing binl/owcc.
-  * Run: export WATCOM="$PWD"; export PATH="$WATCOM/binl:$PATH" INCLUDE="$WATCOM/h"
+  * Run: export WATCOM="$PWD"; export PATH="$WATCOM/binl:$PATH" INCLUDE="$WATCOM/lh"
   * cd to the owtarget16 directory (created by `git clone' above).
   * Run: ./compile.sh
 * To try the example programs, in the same terminal window:
